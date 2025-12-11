@@ -1,115 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sainora A S - Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Poppins", sans-serif;
-      background-color: #0a0f1a;
-      color: #e0e0e0;
-    }
-    header {
-      padding: 40px;
-      text-align: center;
-      background: #0d1220;
-      border-bottom: 1px solid #1a2333;
-    }
-    h1 {
-      font-size: 2.8rem;
-      color: #6ab0ff;
-    }
-    h2 {
-      color: #5fa7ff;
-    }
-    section {
-      padding: 50px;
-      max-width: 950px;
-      margin: auto;
-    }
-    .skills span {
-      display: inline-block;
-      background: #1c2536;
-      padding: 8px 15px;
-      margin: 6px;
-      border-radius: 6px;
-      border: 1px solid #273449;
-      font-size: 0.9rem;
-    }
-    .project-box {
-      background: #111827;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-      border: 1px solid #1f2a3a;
-    }
-    footer {
-      text-align: center;
-      padding: 30px;
-      background: #0d1220;
-      border-top: 1px solid #1a2333;
-      margin-top: 40px;
-    }
-    a {
-      color: #6ab0ff;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sainora A S | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #ffffff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            background: #111111;
+            border-bottom: 1px solid #333;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        .hero {
+            padding: 100px 40px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-top: -10px;
+            color: #aaaaaa;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #00b7ff;
+            border-radius: 5px;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 60px 40px;
+        }
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #00b7ff;
+        }
+        .skills span {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 8px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+        .project-card {
+            background: #131313;
+            padding: 20px;
+            margin: 15px 0;
+            border: 1px solid #222;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            border-top: 1px solid #222;
+            color: #999;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div style="font-size: 20px; font-weight: bold;">SAINORA A S</div>
+        <nav>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <header>
-    <h1>👩‍💻 Sainora A S</h1>
-    <h3>Full Stack Developer (Python Django)</h3>
-  </header>
+    <section class="hero">
+        <h1>Full‑Stack Developer</h1>
+        <p>Python Django | React | Node.js | SQL | ML Beginner</p>
+        <a class="btn" href="https://www.linkedin.com/in/sainora-a-s" target="_blank">LinkedIn Profile</a>
+    </section>
 
-  <section>
-    <h2>🚀 About Me</h2>
-    <p>
-      I'm a passionate Full Stack Developer specializing in Python Django. I love creating clean, scalable, and modern web applications.
-      As an MCA student and tech learner, I enjoy exploring backend development, APIs, and front-end UI designs.
-    </p>
-  </section>
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>Django</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>SQL</span>
+            <span>MongoDB</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Machine Learning (Beginner)</span>
+            <span>Power BI</span>
+            <span>API Development</span>
+        </div>
+    </section>
 
-  <section>
-    <h2>🛠️ Skills</h2>
-    <div class="skills">
-      <span>Python</span>
-      <span>Django</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>React</span>
-      <span>Node.js</span>
-      <span>MySQL</span>
-      <span>MongoDB</span>
-      <span>REST APIs</span>
-      <span>Git</span>
-      <span>GitHub</span>
-      <span>Power BI</span>
-      <span>Machine Learning (Beginner)</span>
-    </div>
-  </section>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>HealthGuardian: AI‑Powered Disease Prediction</h3>
+            <p>Django‑based AI health system with disease prediction, doctor recommendations, chatbot assistance.</p>
+        </div>
+        <div class="project-card">
+            <h3>Women Safety Application</h3>
+            <p>Node.js mini project with live location, alert system, and emergency contact features.</p>
+        </div>
+        <div class="project-card">
+            <h3>Metanoid – Seminar & Learning Platform</h3>
+            <p>Web application for seminar learning and document management.</p>
+        </div>
+    </section>
 
-  <section>
-    <h2>📌 Featured Projects</h2>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <b>sayanarasudarshan@gmail.com</b></p>
+        <p>GitHub: <b>github.com/sainora-a-ss</b></p>
+    </section>
 
-    
-  </section>
-
-  <section>
-    <h2>📫 Contact</h2>
-    <p>Email: <a href="mailto:sainorasudarsan@gmail.com">sainorasudarsan@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/sainora-a-s">linkedin.com/in/sainora-a-s</a></p>
-    <p>GitHub: <a href="https://github.com/sainora-a-ss">github.com/sainora-a-ss</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Sainora A S | Portfolio</p>
-  </footer>
-
+    <footer>
+        © 2025 Sainora A S — All Rights Reserved
+    </footer>
 </body>
 </html>
